@@ -9,15 +9,15 @@ Central nervous system malignancies, particularly gliomas, present significant d
 ## Proposed Federated Learning Framework
 
 ### Case 1: Standard FL with IID Data Distribution
-![Case 1: Standard FL with IID Data Distribution](Framework1-iid.pdf)
+![Case 1: Standard FL with IID Data Distribution](Framework1-iid.jpg)
 *Figure 1: Baseline IID implementation*
 
 ### Case 2: Enhanced FL with Shared Holdout Data in Non-IID Setting  
-![Case 2: Enhanced FL with Shared Holdout Data in Non-IID Setting](Framework2-noniid.pdf)
+![Case 2: Enhanced FL with Shared Holdout Data in Non-IID Setting](Framework2-noniid.jpg)
 *Figure 2: Non-IID setting with cross-client knowledge sharing through holdout data*
 
 ### Case 3: Proposed FL with Synthetic Data Augmentation in Non-IID Setting
-![Case 3: Proposed FL with Synthetic Data Augmentation in Non-IID Setting](Framework3-synthetic.pdf)
+![Case 3: Proposed FL with Synthetic Data Augmentation in Non-IID Setting](Framework3-synthetic.jpg)
 *Figure 3: Novel approach integrating synthetic data generation to address extreme non-IID distributions while preserving data privacy*
 The proposed federated learning framework for brain tumor classification is illustrated in the figure above. It presents a comprehensive methodology for distributed model training using MRI scans while maintaining data privacy. The framework incorporates several key components:
 
