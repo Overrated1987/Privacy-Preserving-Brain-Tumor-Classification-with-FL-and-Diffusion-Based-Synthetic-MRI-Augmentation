@@ -6,15 +6,19 @@ Central nervous system malignancies, particularly gliomas, pose significant diag
 
 Central nervous system malignancies, particularly gliomas, present significant diagnostic challenges due to their complex morphological characteristics and substantial inter-observer variability in MRI interpretation. Conventional centralized learning approaches face limitations in handling distributed medical data across institutions while preserving patient privacy and complying with regulatory constraints. This project introduces a privacy-preserving federated learning (FL) framework for robust multi-class brain tumor classification, specifically designed to address non-IID data distributions, severe class imbalance, and limited data availability across decentralized healthcare entities.
 
-## Proposed Framework
+## Proposed Federated Learning Framework
 
-<p align="center">
-  <img src="Framework1-iid.pdf" alt="Federated Learning Framework for Brain Tumor Classification">
-</p>
-<p align="center">
-  Architecture of the proposed federated learning framework for brain tumor classification
-</p>
+### Case 1: Standard FL with IID Data Distribution
+![Case 1: Standard FL with IID Data Distribution](Framework1-iid.pdf)
+*Figure 1: Baseline IID implementation*
 
+### Case 2: Enhanced FL with Shared Holdout Data in Non-IID Setting  
+![Case 2: Enhanced FL with Shared Holdout Data in Non-IID Setting](Framework2-noniid.pdf)
+*Figure 2: Non-IID setting with cross-client knowledge sharing through holdout data*
+
+### Case 3: Proposed FL with Synthetic Data Augmentation in Non-IID Setting
+![Case 3: Proposed FL with Synthetic Data Augmentation in Non-IID Setting](Framework3-synthetic.pdf)
+*Figure 3: Novel approach integrating synthetic data generation to address extreme non-IID distributions while preserving data privacy*
 The proposed federated learning framework for brain tumor classification is illustrated in the figure above. It presents a comprehensive methodology for distributed model training using MRI scans while maintaining data privacy. The framework incorporates several key components:
 
 1.  **Federated Learning Scenarios**: The system supports three operational modes: (i) conventional IID data partitioning (Case 1), (ii) extreme non-IID distribution with minimal shared holdout data (Case 2), and (iii) privacy-sensitive non-IID setting with synthetic data augmentation (Case 3).
