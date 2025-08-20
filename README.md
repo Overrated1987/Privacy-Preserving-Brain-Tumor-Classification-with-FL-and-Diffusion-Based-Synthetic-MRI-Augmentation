@@ -9,7 +9,7 @@ Central nervous system malignancies, particularly gliomas, present significant d
 ## Proposed Framework
 
 <p align="center">
-  <img src="path_to_your_framework_image.png" alt="Federated Learning Framework for Brain Tumor Classification">
+  <img src="Framework1-iid.pdf" alt="Federated Learning Framework for Brain Tumor Classification">
 </p>
 <p align="center">
   Architecture of the proposed federated learning framework for brain tumor classification
